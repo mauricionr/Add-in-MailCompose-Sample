@@ -1,19 +1,19 @@
       __  __       _ _    ______                                   __  
-     |  \/  | __ _(_) |  / / ___|___  _ __ ___  _ __   ___  ___  __\ \ 
+     |  \/  | __ _(_) |  / / ___|___  _ __ ___  _ __   ___  ___  __\ \
      | |\/| |/ _` | | | | | |   / _ \| '_ ` _ \| '_ \ / _ \/ __|/ _ \ |
      | |  | | (_| | | | | | |__| (_) | | | | | | |_) | (_) \__ \  __/ |
      |_|  |_|\__,_|_|_| | |\____\___/|_| |_| |_| .__/ \___/|___/\___| |
-                         \_\                   |_|                 /_/ 
+                         \_\                   |_|                 /_/
 
-This sample showcases a simple add-in for Outlook that lets you add yourself to the recipient list of an email message that you're composing. 
+This sample showcases a simple add-in for Outlook that lets you add yourself to the recipient list of an email message that you're composing.
 
-The easiest way to run this sample is to open it in the playground for Office Add-ins: http://aka.ms/Nahkwl 
+The easiest way to run this sample is to open it in the playground for Office Add-ins: http://aka.ms/Nahkwl
 
 ====================================================================================
 
 If you're not using the playground for Office Add-ins, follow these steps to run the sample:
 
-1. Host these files either online (e.g. AWS, Azure, Heroku, etc) or on a local host (e.g. a local node.js/python server, etc). Make sure they are served over HTTPS. In the manifest.xml file, change the default value of the SourceLocation to point to the URL where the index.html file is hosted.
+1. Host these files either online (e.g. AWS, Azure, Heroku, etc) or on a local host (e.g. a local node.js/python server, etc). Make sure they are served over HTTPS. In the manifest.xml file, change the DefaultValue of the SourceLocation to point to the URL where the index.html file is hosted.
 
 2. Now, we want to make this page show up within Outlook as an add-in. Go to Office 365 Mail (https://outlook.office365.com) and login if you aren't already logged in.
 
